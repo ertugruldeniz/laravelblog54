@@ -26,6 +26,7 @@
                    {{Form::text('title',null,array('class'=>'form-control','required'=>'','maxlength'=>'255' ))}}
 
                    {{ Form::label('slug','Slug:')  }}
+
                    {{Form::text('slug',null,array('class'=>'form-control','required'=>'','minlenght'=>'5','maxlength'=>'255'))}}
 
                    {{Form::label('body','Post Body:')}}
